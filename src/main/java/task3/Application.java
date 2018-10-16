@@ -18,8 +18,9 @@ public class Application {
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
-
-            System.out.println("Let's inspect the beans provided by Spring Boot:");
+//this is a comment add to my stuff
+            System.out.println(("heres a string yoooomoreee hangessssss"));
+            System.out.println("Let's inspect the beans and also look to see a change to the codeeeee provided by Spring Boot:");
 
             String[] beanNames = ctx.getBeanDefinitionNames();
             Arrays.sort(beanNames);
