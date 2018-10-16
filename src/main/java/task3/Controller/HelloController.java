@@ -1,4 +1,4 @@
-package task3;
+package task3.Controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
